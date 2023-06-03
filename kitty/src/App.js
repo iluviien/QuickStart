@@ -1,10 +1,10 @@
 import "./App.css";
-// import Exercise1 from "./Exercise1";
-import Exercise2 from "./Exercise2";
+
+import Exercise3 from "./Exercise3";
 function App(props) {
   return (
     <div className="App">
-      <Exercise2 />
+      <Exercise3 />
     </div>
   );
 }

@@ -12,6 +12,7 @@ function Exercise2(prop) {
       {planets.map((planet, key) => {
         if (planet.isGasPlanet) return <h1> {planet.name} </h1>;
       })}
+      {/* {planets.map((planet,key) => planet.isGasPlanet && <h1>{planet.name}</h1>)} */}
     </div>
   );
 }
